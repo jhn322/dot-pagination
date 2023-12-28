@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: #000;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+.dots {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dots button {
+  flex: 0 0 42px;
+  height: 42px;
+  border: 0px;
+  padding: 6px;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.dots button span {
+  display: block;
+  height: 30px;
+  width: 100%;
+  border-radius: 15px;
+  background: #383142;
+  transition: 0.4s;
+}
+
+.dots button:focus {
+  flex: 0 0 80px;
+}
+
+.dots button:focus span {
+  background: #09e9d7;
+}
