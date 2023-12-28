@@ -1,7 +1,9 @@
 # Modern Dot Pagination
 
+Nice looking paginaton with expanding dots to indicate where the user is. Also has scroll functionality to move to next or previous.
+
 ### Links:
 
-[GitHub Pages](https://jhn322.github.io/parallax-website/)
+[GitHub Pages](https://jhn322.github.io/dot-pagination/)
 
-[Netlify](https://jhn-parallax-website.netlify.app/)
+[Netlify](https://jhn-dot-pagination.netlify.app/)
